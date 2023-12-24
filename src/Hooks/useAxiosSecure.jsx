@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosSecure = axios.create({
-  baseURL: "http://localhost:12002",
+  baseURL: "https://task-management-server-delta-seven.vercel.app",
 });
 
 const useAxiosSecure = () => {
